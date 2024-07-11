@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* check where to put this padding, if it could be here or not */
+    padding: 10px;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #f3f0e9;
+}
+
+h1 {
+    font-size: 2.027rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 1.802rem;
+    font-family: 'Lato', sans-serif;
+}
+
+h3 {
+    font-size: 1.424rem;
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    font-family: 'Karla', sans-serif;
+    font-weight: 800;
+    font-size: 1.1rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.golden {
+    color: #d69e3d;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-top: 50px;
+    margin-bottom: -10px;
+}
+
+
+/* ------------- HEADER -------------- */
+
+header {
+    background-color: #000;
+    overflow: hidden;
+    color: #fff;
+    font-weight: 800;
+    /* font-size: 1rem; */
+}
+
+nav {
+    font-family: 'Lato', sans-serif;
+}
+
+.nav-bar {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.nav-bar li {
+    padding: 10px;
+}
+
+
+
+
+
+
+/* ------------- BANNER SECTION -------------- */
+
+.banner {
+    position: relative;
+    background-image: url(../images/hero-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 100%; */
+    color: #fff;
+    /* position: relative; */
+    text-align: center;
+    padding: 130px;
+}
+
+.wht-btn {
+    padding: 10px 30px;
+    background-color: #fff;
+    border: none;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: #00000080;
+}
+
+.text-overlay {
+    position: relative;
+    z-index: 2;
+}
+
+
+
+
+/* ------------- WELCOME SECTION -------------- */
+
+#welcome-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#welcome-grid > :first-child {
+    grid-column: 1 / span 2;
+}
+
+#offer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#offer > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/* ------------- MENU AND LOCATION SECTION -------------- */
+
+.menu-location {
+    position: relative;
+    background-image: url(../images/coffee-shop.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 100%; */
+    color: #fff;
+    /* position: relative; */
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.blk-btn {
+    padding: 10px 30px;
+    background-color: #00000050;
+    color: #fff;
+    border: #fff solid 1px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* ------------- ABOUT SECTION -------------- */
+
+
+
+
+
+
+
+/* ------------- TESTIMONIALS SECTION -------------- */
+
+.testimonials {
+    background-color: #000;
+    color: #fff;
+}
+
+
+
+
+
+
+/* ------------- FOOTER -------------- */
