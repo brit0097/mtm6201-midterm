@@ -414,59 +414,52 @@ footer hr {
 
     .item4 {
         grid-area: item4;
+        padding-bottom: 60px;
     }
 
+    /* ------------- MENU AND LOCATION -------------- */
 
-
-    /* .offer-items {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: auto;
-    }
-
-    .offer-items > div:first-child {
-        grid-column: 1 / span 2;
-    }
-    
-    .offer-items > div:nth-child(2) {
-        grid-column: 3 / span 2;
-    }
-    
-    .offer-items > div:nth-child(3) {
-        grid-column: 2 / span 2;
-        grid-row: 2;
-    }
-
-    .offer-items > div {
+    .menu-flex {
         display: flex;
-        flex-direction: column;
+        gap: 70px;
+        padding: 50px 10px;
+    }
+
+    .menu-flex > div button {
+        padding: 18px 40px;
+        margin-top: 70px;
+        align-items: baseline;
+    }
+
+    /* ------------- ABOUT -------------- */
+
+    .about-flex {
+        display: flex;
         align-items: center;
-    } */
-
-
-    /* .offer-items {
-        display: grid;
-        grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 50px 10px;
     }
 
-    .offer-items:first-child {
-        grid-column: 1 / span 2;
+    .about-flex img {
+        flex: 1 1 50%;
+        max-width: 50%;
     }
 
-    .offer-items:nth-child(2) {
-        grid-column: 3 / span 2;
-    } */
+    .about-flex div {
+        flex: 1 1 50%;
+        max-width: 50%;
+        padding: 20px;
+    }
 
+    #about-p {
+        margin-bottom: -20px;
+    }
 
-
-    /* ------------- FOOTER -------------- */
-
-
-
-
-
-    /* ------------- FOOTER -------------- */
+    #about-btn-tablet {
+        padding: 18px 40px;
+    }
 
 
 
