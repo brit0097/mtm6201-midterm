@@ -66,7 +66,6 @@ img {
     margin-bottom: -10px;
 }
 
-
 /* ------------- HEADER -------------- */
 
 header {
@@ -105,14 +104,6 @@ nav {
 #coffee-logo {
     margin: 20px;
 }
-
-
-
-
-
-
-
-
 
 /* ------------- BANNER SECTION -------------- */
 
@@ -487,30 +478,7 @@ footer hr {
         /* max-width: 50%; */
     }
 
-    /* ------------- FOOTER -------------- */
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
-
-
-
 
 
 /* -------------------------------------------------
@@ -519,9 +487,61 @@ footer hr {
 
 @media screen and (min-width: 1100px) {
     
-    /* ------------- FOOTER -------------- */
+    h1 {
+        font-size: 3.815rem;
+    }
 
+    h2 {
+        font-size: 3.052rem;
+    }
 
+    h3 {
+        font-size: 1.953rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .container {
+        max-width: 1200px;
+    }
+
+    /* ------------- HEADER -------------- */
+
+    header .container {
+        padding: 0;
+    }
+
+    .nav-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+
+    /* ------------- BANNER -------------- */
+
+    .banner {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        padding: 160px 0 180px 0;
+    }
+
+    .banner .container {
+        grid-column: 2 / span 3;
+        place-items: center;
+    }
+
+    .banner {
+        background-position: center 45%;
+        background-repeat: no-repeat;
+        background-size: 120%;
+        color: #fff;
+    }
+
+    .banner button {
+        margin-top: 5px;
+    }
 
 
     /* ------------- FOOTER -------------- */
