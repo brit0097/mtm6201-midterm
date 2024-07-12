@@ -195,7 +195,7 @@ nav {
 }
 
 .h2-right {
-    padding-right: 150px;
+    width: 85%;
 }
 
 
@@ -357,6 +357,10 @@ footer hr {
         font-size: 1rem;
     }
 
+    .container {
+        padding: 20px;
+    }
+
     /* ------------- BANNER -------------- */
 
     .banner p {
@@ -438,7 +442,7 @@ footer hr {
         align-items: center;
         justify-content: space-between;
         flex-wrap: wrap;
-        width: 100%;
+        width: 98%;
         padding: 50px 10px;
     }
 
@@ -462,11 +466,29 @@ footer hr {
     }
 
 
+    /* ------------- TESTIMONIALS -------------- */
 
+    .testimonials {
+        padding: 40px 0;
+    }
 
+    .h2-right {
+        margin-top: 30px;
+        width: 65%;
+    }
+
+    .testimonials-three {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .testimonials-flex {
+        flex: 1 1 30%;
+        /* max-width: 50%; */
+    }
 
     /* ------------- FOOTER -------------- */
-
+    
 
 
 
