@@ -17,17 +17,19 @@ body {
 h1 {
     font-size: 2.027rem;
     font-family: 'Lato', sans-serif;
-    font-weight: bolder;
+    font-weight: 800;
 }
 
 h2 {
     font-size: 1.802rem;
     font-family: 'Lato', sans-serif;
+    margin-bottom: 0;
 }
 
 h3 {
     font-size: 1.424rem;
     font-family: 'Lato', sans-serif;
+    margin-bottom: 0;
 }
 
 p {
@@ -44,6 +46,7 @@ button {
     font-family: 'Karla', sans-serif;
     font-weight: 800;
     font-size: 1.1rem;
+    margin-top: 10px;
 }
 
 img {
@@ -84,10 +87,9 @@ nav {
     padding: 0;
 }
 
-.nav-bar li {
-    padding: 10px;
+#coffee-logo {
+    margin: 20px;
 }
-
 
 
 
@@ -105,7 +107,7 @@ nav {
     color: #fff;
     /* position: relative; */
     text-align: center;
-    padding: 130px;
+    padding: 80px;
 }
 
 .wht-btn {
@@ -129,6 +131,9 @@ nav {
     z-index: 2;
 }
 
+.banner p {
+    padding: 30px;
+}
 
 
 
@@ -158,6 +163,11 @@ nav {
     align-items: center;
 }
 
+.welcome h2 {
+    margin-bottom: 30px;
+    padding-right: 200px;
+}
+
 
 
 /* ------------- MENU AND LOCATION SECTION -------------- */
@@ -172,7 +182,7 @@ nav {
     color: #fff;
     /* position: relative; */
     text-align: center;
-    padding-bottom: 50px;
+    padding: 10px 40px 70px 40px;
 }
 
 .trnp-btn {
@@ -182,6 +192,9 @@ nav {
     border: #fff solid 1px;
 }
 
+.menu-location button {
+    margin-top: 40px;
+}
 
 
 
@@ -215,9 +228,79 @@ nav {
     color: #fff;
 }
 
+.testimonials-three {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 40px;
+}
 
+.testimonials-flex {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
 
+.testimonials-flex::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000050; 
+    z-index: 1;
+}
 
+.testimonials-flex p {
+    position: relative;
+    z-index: 2;
+    padding: 0 20px;
+    margin: 0;
+}
 
+.testimonials-three .testimonials-flex:nth-child(1) {
+    background-image: url(../images/testimonial-1.jpeg);
+}
+
+.testimonials-three .testimonials-flex:nth-child(2) {
+    background-image: url(../images/testimonial-2.jpeg);
+}
+
+.testimonials-three .testimonials-flex:nth-child(3) {
+    background-image: url(../images/testimonial-3.jpeg);
+}
+
+#jane {
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+#scott {
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+#susie {
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
 
 /* ------------- FOOTER -------------- */
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+footer hr {
+    border: solid 1px #393939;
+    margin-top: 60px;
+}
