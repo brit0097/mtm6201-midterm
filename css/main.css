@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -104,6 +105,15 @@ nav {
 #coffee-logo {
     margin: 20px;
 }
+
+.nav-bar a {
+    transition: color 0.3s ease;
+}
+
+.nav-bar a:hover {
+    color: #f0c040;
+}
+
 
 /* ------------- BANNER SECTION -------------- */
 
@@ -543,7 +553,6 @@ footer hr {
         margin-top: 5px;
     }
 
-
     /* ------------- WELCOME -------------- */
 
     .xtra-tablet {
@@ -563,36 +572,11 @@ footer hr {
         padding-bottom: 0;
     }
 
-
-
-
     /* ------------- ABOUT -------------- */
 
     .about button {
         margin-top: 30px;
     }
-
-
-
-
-
-
-    /* ------------- FOOTER -------------- */
-
-
-
-
-
-    /* ------------- FOOTER -------------- */
-
-
-
-
-
-
-
-
-
 
 }
 

@@ -20,12 +20,14 @@
     <header>
         <div class="container">
             <nav class="nav-flex">
-                <img src="images/my-coffee-shop-logo.svg" alt="" id="coffee-logo" width="250px">
+                <a href="index.html" id="home-link">
+                    <img src="images/my-coffee-shop-logo.svg" alt="Coffee Shop Logo" id="coffee-logo" width="250px">
+                </a>
                 <ul class="nav-bar">
                     <!-- <li><a href="index.html">My Coffee House</a></li> -->
-                    <li><a href="#" class="uppercase">About Us</a></li>
-                    <li><a href="#" class="uppercase">Menu</a></li>
-                    <li><a href="#" class="uppercase">Locations</a></li>
+                    <li><a href="#about-us" class="uppercase">About Us</a></li>
+                    <li><a href="#menu" class="uppercase">Menu</a></li>
+                    <li><a href="#locations" class="uppercase">Locations</a></li>
                 </ul>
             </nav>
         </div>
@@ -34,7 +36,7 @@
     <main>
 
         <!-- banner -->
-        <section class="banner">
+        <section class="banner" id="home-link">
             <div class="overlay"></div>
             <div class="container text-overlay">
                 <h1 class="uppercase">Experience coffee like never before</h1>
@@ -91,13 +93,13 @@
         <section class="menu-location">
             <div class="overlay"></div>
             <div class="container text-overlay menu-flex">
-                <div>
+                <div id="menu">
                     <p class="uppercase golden">Our menu</p>
                     <h2 class="uppercase">Explore what we have to offer you</h2>
                     <button class="uppercase wht-btn">Explore our menu</button>
                 </div>
                 
-                <div>
+                <div id="locations">
                     <p class="uppercase golden">Locations</p>
                     <h2 class="uppercase">Find your nearest coffee shop</h2>
                     <button class="uppercase trnp-btn">View locations</button>    
@@ -107,7 +109,7 @@
         </section>
 
         <!-- about us -->
-        <section class="about">
+        <section class="about" id="about-us">
             <div class="container about-flex">
                 <img src="images/about-us.jpeg" alt="" id="">
                 <div>
