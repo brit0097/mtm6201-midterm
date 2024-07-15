@@ -19,11 +19,19 @@
     <!-- header -->
     <header>
         <div class="container">
-            <nav class="nav-flex">
+
+            <ul class="skip-links">
+                <li><a href="#nav">Skip to navigation</a></li>
+                <li><a href="#main">Skip to main content</a></li>
+                <li><a href="#offer">Skip to what we offer</a></li>
+                <li><a href="#about-us">Skip to our story</a></li>
+            </ul>
+
+            <nav class="nav-flex" role="navigation" aria-label="Main navigation">
                 <a href="index.html" id="home-link">
-                    <img src="images/my-coffee-shop-logo.svg" alt="Coffee Shop Logo" id="coffee-logo" width="250px">
+                    <img src="images/my-coffee-shop-logo.svg" alt="Coffee Shop Logo" id="coffee-logo" width="250">
                 </a>
-                <ul class="nav-bar">
+                <ul class="nav-bar" id="nav">
                     <li><a href="#about-us" class="uppercase">About Us</a></li>
                     <li><a href="#menu" class="uppercase">Menu</a></li>
                     <li><a href="#locations" class="uppercase">Locations</a></li>
@@ -32,54 +40,54 @@
         </div>
     </header>
 
-    <main>
+    <main id="main" role="main">
 
         <!-- banner -->
-        <section class="banner">
+        <section class="banner" aria-labelledby="banner-heading">
             <div class="overlay"></div>
             <div class="container text-overlay">
-                <h1 class="uppercase">Experience coffee like never before</h1>
+                <h1 class="uppercase" id="banner-heading">Experience coffee like never before</h1>
                 <p>We craft more than beverages; we curate memories, one flavorful moment at a time. Embrace the aroma and let every visit be a chapter in your coffee story.</p>
                 <button class="uppercase wht-btn">Explore our menu</button>
             </div>
         </section>
 
         <!-- welcome -->
-        <section class="welcome">
-            <div class="container">
+        <section class="welcome" aria-labelledby="welcome-heading">
+            <div class="container" id="welcome-heading">
                 <p class="uppercase golden xtra-tablet">Welcome to My Coffee House</p>
                 <h2 class="uppercase h2-right">Experience a new way to taste coffee</h2>
     
                 <div id="welcome-grid">
-                    <img src="images/latte.jpeg" alt="" id="">
-                    <img src="images/coffee-beans.jpeg" alt="" id="">
-                    <img src="images/pouring-coffee.jpeg" alt="" id="">
-                    <img src="images/three-cups.jpeg" alt="" id="">
-                    <img src="images/smiling-employee.jpeg" alt="" id="">
+                    <img src="images/latte.jpeg" alt="latte being served in a cup">
+                    <img src="images/coffee-beans.jpeg" alt="coffe beans in a jar over the table">
+                    <img src="images/pouring-coffee.jpeg" alt="pouring coffee into a glass cup">
+                    <img src="images/three-cups.jpeg" alt="three cups together cheering">
+                    <img src="images/smiling-employee.jpeg" alt="girl smiling while preparing a coffee">
                 </div>
     
                 <!-- what we offer -->
-                <div id="offer" class="animated-section">
+                <div id="offer" class="animated-section" role="complementary" aria-labelledby="offer-heading">
                     <div class="item1">
                         <p class="uppercase golden xtra-tablet">What we offer</p>
-                        <h2 class="uppercase">Why visit us?</h2>
+                        <h2 class="uppercase" id="offer-heading">Why visit us?</h2>
                     </div>    
                 
 
                     <div class="item2">
-                        <img src="images/fair-trade.svg" alt="" id="" width="160px">
+                        <img src="images/fair-trade.svg" alt="icon showing a trade" width="160">
                         <h3 class="uppercase">Fair Trade Coffee</h3>
                         <p>We build direct relationships with the farmers and producers who help in the development of delicious, sustainable and organic coffee.</p>
                     </div>
         
                     <div class="item3">
-                        <img src="images/local-baked-goods.svg" alt="" id="" width="160px">
+                        <img src="images/local-baked-goods.svg" alt="icon showing a picnic basket with breads" width="160">
                         <h3 class="uppercase">Local baked goods</h3>
                         <p>We use local products to bake our goods and bring in a variety of treats from local bakers with our community.</p>
                     </div>
         
                     <div class="item4">
-                        <img src="images/made-with-love.svg" alt="" id="" width="160px">
+                        <img src="images/made-with-love.svg" alt="icon of cup of coffee with a heart draw on it" width="160">
                         <h3 class="uppercase">Made with love</h3>
                         <p>We value our customers and make it our priority to serve everyone with respect and a friendly smile to start their day of right.</p>
                     </div>
@@ -89,12 +97,12 @@
         </section>
 
         <!-- our menu and locations -->
-        <section class="menu-location">
+        <section class="menu-location" aria-labelledby="menu-locations-heading">
             <div class="overlay"></div>
             <div class="container text-overlay menu-flex">
                 <div id="menu">
                     <p class="uppercase golden">Our menu</p>
-                    <h2 class="uppercase">Explore what we have to offer you</h2>
+                    <h2 class="uppercase" id="menu-locations-heading">Explore what we have to offer you</h2>
                     <button class="uppercase wht-btn">Explore our menu</button>
                 </div>
                 
@@ -108,12 +116,12 @@
         </section>
 
         <!-- about us -->
-        <section class="about animated-section-2" id="about-us">
+        <section class="about animated-section-2" id="about-us" aria-labelledby="about-heading">
             <div class="container about-flex">
-                <img src="images/about-us.jpeg" alt="" id="">
+                <img src="images/about-us.jpeg" alt="two people preparing coffee in a fancy machine">
                 <div>
                     <p class="uppercase golden" id="about-p">About us</p>
-                    <h2 class="uppercase">Read our story</h2>
+                    <h2 class="uppercase" id="about-heading">Read our story</h2>
                     <p>In the heart of our community, My Coffee House emerged as a humble local coffee shop that sought to redefine the coffee experience. Founded with a passion for quality brews and a commitment to fostering genuine connections, we embarked on this journey with a vision to create a warm and inviting space for coffee enthusiasts and casual patrons alike.</p>
                     <p>My Coffee House quickly became a cherished gathering spot, where the rich aroma of freshly ground coffee beans mingled with the laughter of friends and the tapping of keyboards from those seeking a cozy workspace.</p>
                     <button class="uppercase blk-btn" id="about-btn-tablet">Learn more</button>    
@@ -123,9 +131,9 @@
         </section>
 
         <!-- testimonials -->
-        <section class="testimonials">
+        <section class="testimonials" aria-labelledby="testimonials-heading">
             <div class="container">
-                <p class="uppercase golden">Testimonials</p>
+                <p class="uppercase golden" id="testimonials-heading">Testimonials</p>
                 <h2 class="uppercase h2-right">What our customers say about us</h2>
     
                 <div class="testimonials-three">
@@ -149,8 +157,8 @@
 
     </main>
 
-    <footer>
-        <div class="container">
+    <footer role="contentinfo">
+        <div class="container" >
             <hr>
             <p>&copy; My Coffee Company 2024</p>
         </div>
