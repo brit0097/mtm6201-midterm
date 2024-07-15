@@ -130,6 +130,10 @@ nav {
     color: #d69e3d;
 }
 
+.nav-bar a:focus {
+    color: #d69e3d;
+}
+
 /* ------------- BANNER SECTION -------------- */
 
 .banner {
