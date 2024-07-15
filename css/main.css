@@ -123,6 +123,7 @@ nav {
     color: #fff;
     text-align: center;
     padding: 80px;
+    /* height: 70vh; */
 }
 
 .wht-btn {
@@ -357,6 +358,39 @@ footer hr {
     border: solid 1px #393939;
     margin-top: 60px;
 }
+
+    /* ANIMATION */
+
+    @keyframes slideInFromRight {
+        0% {
+            transform: translateX(100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+    .animated-section {
+        animation: slideInFromRight 1s ease-out forwards;
+    }
+
+    @keyframes slideInFromLeft {
+        0% {
+            transform: translateX(100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+    .animated-section-2 {
+        animation: slideInFromLeft 1s ease-out forwards;
+    }
+
 
 /* -------------------------------------------------
                      TABLET 
